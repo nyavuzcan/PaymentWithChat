@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/nuntiuslog"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".odeme.odemesayfasi"></activity>
+        <activity android:name=".myetkinlikkatilim" />
+        <activity android:name=".etkinlikpaylas.etkinlikkisiler" />
+        <activity android:name=".alfa.myetkinlik" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bottomnavi">
+            <intent-filter>
+                <action android:name="android.intent.action.BOTTOM" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Success">
+            <intent-filter>
+                <action android:name="android.intent.action.SUCESS" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_app_id" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/account_kit_client_token" />
+
+        <activity android:name="com.facebook.accountkit.ui.AccountKitActivity" />
+        <activity android:name="com.facebook.accountkit.ui.AccountKitEmailRedirectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/ak_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MessageActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.scytec.datamobile.vd.gui.android.AppPreferenceActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bireyselkayit">
+            <intent-filter>
+                <action android:name="android.intent.action.BIREYSELKAYIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bryselgiris">
+            <intent-filter>
+                <action android:name="android.intent.action.BIREYSELKAYIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".krmsalkayit">
+            <intent-filter>
+                <action android:name="android.intent.action.KURUMSALKAYIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".etkinlikOlusturma">
+            <intent-filter>
+                <action android:name="android.intent.action.ETKINLIKOLUSTURMA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dogrulama">
+            <intent-filter>
+                <action android:name="android.intent.action.DOGRULAMA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".kisiler">
+            <intent-filter>
+                <action android:name="android.intent.action.KISILER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sohbetler">
+            <intent-filter>
+                <action android:name="android.intent.action.SOHBETLER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profilduzenle">
+            <intent-filter>
+                <action android:name="android.intent.action.PROFILDUZENLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".musteriler">
+            <intent-filter>
+                <action android:name="android.intent.action.PROFILDUZENLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sohbetKurumsal">
+            <intent-filter>
+                <action android:name="android.intent.action.PROFILDUZENLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfilKurumsal">
+            <intent-filter>
+                <action android:name="android.intent.action.PROFILDUZENLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    >
+    <LinearLayout
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/girisbtn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/shbet"
+
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/smskayit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="SMS KAYIT"
+                />
+            <Button
+                android:id="@+id/emailkayit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Email Kayıt"
+                />
+
+        </LinearLayout>
+
+</LinearLayout>

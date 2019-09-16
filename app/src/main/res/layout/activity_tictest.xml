@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".alfa.tictest">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+
+    >
+    <ImageView
+        android:src="@drawable/prfoilfoto"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Hepsiburada.com"
+        android:textSize="38sp" />
+
+</LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/prfoilfoto"/>
+
+        <TextView
+            android:layout_marginTop="19dp"
+            android:textSize="18sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Ödemenizi gerçekleştirebilirsiniz."
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kart Numarası:"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="16 Haneli Kart Numarası"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Son Kullanma Tarihi:"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ay/Yıl"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cvc Numarası"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="3 Haneli Cvc Numarası"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onayla"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="VAZGEÇ"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="19dp"
+            android:text="                                        Teşekkür ederim."
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/profiltest" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/prfoilfoto"/>
+
+        <TextView
+            android:layout_marginTop="19dp"
+            android:textSize="18sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siparişiniz en kısa zamanda tarafınıza ulaştırılacaktır. Farklı bir sorunuz varsa sizi müşteri hizmetine aktarabilirim."
+            />
+
+
+    </LinearLayout>
+
+   ,
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Mesaj yazın..."
+            android:ems="16"
+            />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/send128" />
+    </LinearLayout>
+
+</LinearLayout>
+
