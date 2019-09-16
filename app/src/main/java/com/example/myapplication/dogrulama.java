@@ -24,6 +24,7 @@ public class dogrulama extends Activity {
                 Intent intent= new Intent(getApplicationContext(),Bryselgiris.class);
                 startActivity(intent);
                 Toast.makeText(context,"Git",Toast.LENGTH_LONG).show();
+                Toast.makeText(context,"Git",Toast.LENGTH_LONG).show();
             }
         });
     }
