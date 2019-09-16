@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -25,6 +26,7 @@ public class dogrulama extends Activity {
                 startActivity(intent);
                 Toast.makeText(context,"Git",Toast.LENGTH_LONG).show();
                 Toast.makeText(context,"Git",Toast.LENGTH_LONG).show();
+                Log.d("dda","asdadsas");
             }
         });
     }
