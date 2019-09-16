@@ -27,6 +27,7 @@ public class dogrulama extends Activity {
                 Toast.makeText(context,"Git",Toast.LENGTH_LONG).show();
                 Toast.makeText(context,"Git",Toast.LENGTH_LONG).show();
                 Log.d("dda","asdadsas");
+                Log.d("dda","asdadsas");
             }
         });
     }
